@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "+";//istediğiniz gibi ayarlayabilirsiniz prefixi
-var statuses = [`Altyapı Videosu İçin youtube.com/@WraithsDev`];
+var statuses = [`Hesap Hanem`];
 var timers = 2;
-const owners = ["sahip_id"];//botu kullanmak için sahip_id girmeyi unutmayın
+const owners = ["1149372554188955658"];//botu kullanmak için sahip_id girmeyi unutmayın
 
 client.on("ready", () => {
   console.log(`Giriş Yapıldı: ${client.user.tag}`);
